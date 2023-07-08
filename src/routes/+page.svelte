@@ -10,14 +10,14 @@
 		<h1 class="text-2xl font-bold">Choose your grade</h1>
 		<!-- two buttons to choose grades, 10 or 12 -->
 		<div class="flex space-x-10">
-			<a href="/10" data-sveltekit-preload-data="tap" class="btn">10</a>
-			<a class="btn" data-sveltekit-preload-data="tap" href="/12">10+2</a>
+			<a href="/10" data-sveltekit-preload-data="tap" class="btn variant-filled-primary hover:brightness-150">10</a>
+			<a href="/12" data-sveltekit-preload-data="tap" class="btn variant-filled-primary hover:brightness-150">10+2</a>
 		</div>
 	</div>
 </div>
 
 <style lang="postcss">
 	.btn {
-		@apply variant-filled-primary hover:brightness-150 w-32 h-16;
+		@apply w-32 h-16;
 	}
 </style>
