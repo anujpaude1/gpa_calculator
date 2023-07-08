@@ -16,7 +16,7 @@ jobs:
         npm install
         npm run build
         find . -maxdepth 1 ! -name 'build' ! -name '.' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} + && mv build/* . && rm -r build
-
+        # hehe
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.0.0
